@@ -1,12 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- navbar  -->
+      <nav class="header__nav nav container">
+        <div class="nav__logo">
+          <h1 class="nav__title">Tech<span class="nav__title2">Wave</span></h1>
+        </div>
+
+        <input type="checkbox" id="nav__toggle" />
+        <label for="nav__toggle" class="nav__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="" class="nav__link u-text-primary">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link u-text-primary">Episodes</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link u-text-primary">Host</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary subscribe">
+          Subscribe <span><i class="fa-solid fa-arrow-right"></i></span>
+        </button>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
