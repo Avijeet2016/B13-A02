@@ -31,17 +31,49 @@
   color: #ffffff;
   font-weight: 600;
   font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
+
+.btn-secondary {
+  background-color: transparent;
+  border-radius: 10000px;
+  border: 2px solid #00FF88;
+  color: #00FF88;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-badge {
+    background-color: #00FF88;
+    color: #1A0B2E;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0 3px 27px 0 #00ff8813;
+}
+
+
+
+
 
 .u-text-primary {
   color: #ffffff;
 }
 
+.header {
+      background-color: #1a0b2e;
+}
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1a0b2e;
   padding: 10px;
   position: relative;
 }
@@ -95,10 +127,57 @@
   display: none;
 }
 
+.hero {
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 101px;
+}
 
+.hero__logo {
+    position: relative;
+    width: 550px;
+    height: 390px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
 
+.hero__circle {
+    position: absolute; 
+    left: 100px; 
+    z-index: 0;
+}
+.hero__microphone {
+    position: absolute;
+    left: 213px;
+    top: 25%;
+    z-index: 1;
+}
+.badge {
+    position: absolute;
+    right: 145px;
+    top: 0;
+}
+.hero__title {
+    font-size: 3.75rem;
+    font-weight: 800;
+    padding: 8px;
+    color: #FFFFFF;
+}
+.hero__text {
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    font-size: 16px;
+}
 
-
+.hero__button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 101px;
+}
 
 
 
@@ -143,5 +222,5 @@
 
 
 
-  
+
 }
