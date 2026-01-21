@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+    
 }
 
 .inter {
@@ -10,6 +11,9 @@
   font-optical-sizing: auto;
 }
 
+body {
+  background-color: #1a0b2e;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -72,7 +76,12 @@
 
 
 .u-text-primary {
-  color: #ffffff;
+  color: #D1CED5;
+  font-size: 1rem;
+}
+
+.u-text-secondary {
+  color: #FFFFFF;
 }
 
 .header {
@@ -205,6 +214,57 @@
     gap: 8px;
     /* padding-bottom: 101px; */
 }
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 120px;
+
+}
+.about__content {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.about__title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.about__text {
+  padding: 0 200px;
+}
+
+.about-card__content {
+  text-align: center;
+}
+.about-card__number {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #00FF88;
+  margin-bottom: 16px;
+  
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
