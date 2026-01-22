@@ -252,10 +252,9 @@ body {
 }
 
 
-
 .techwave {
-  padding: 120px 0;
-  background-color: #230E3D;
+    padding: 80px 0;
+    background-color: #230E3D;
 }
 
 .techwave__title {
@@ -267,12 +266,11 @@ body {
 .techwave__card {
   display: flex;
   flex-direction: column;
-  /* gap: 16px; */
   padding: 40px 40px;
   align-items: start;
   text-align: left;
   justify-content: center;
-  background-color: #35116540; 
+  background-color: #250E44;
   border: none;
   border-radius: 40px;
 }
@@ -341,7 +339,7 @@ body {
   margin-bottom: 120px;
 }
 .feature-card__content {
-  background-color: #250d44;
+  background-color: #250E44;
   border: none;
   border-radius: 30px;
 }
@@ -377,7 +375,7 @@ body {
   display: flex;
   gap: 24px;
   align-items: center;
-  background-color: #250d44;
+  background-color: #250E44;
   border: none;
   border-radius: 40px;
   margin-bottom: 120px;
@@ -472,6 +470,10 @@ body {
   }
 
   .hero {
+    padding-bottom: 70px;
+    padding-top: 0;
+}
+  .hero {
     background-size: contain;
   }
   .hero__title {
@@ -511,10 +513,10 @@ body {
     right: 0%;
     top: 31%;
   }
-  .hero {
+  /* .hero {
     padding-bottom: 40px;
     padding-top: 0;
-  }
+  } */
 
   .hero__text {
     color: rgb(255, 255, 255);
@@ -527,8 +529,8 @@ body {
 
   .about {
     padding-top: 0px;
-    padding-bottom: 173px;
-  }
+    padding-bottom: 65px;
+}
 
  .about__title {
     font-size: 2rem;
@@ -563,6 +565,10 @@ body {
     max-width: 240px;
   }
 
+  .feature {
+    margin-top: 45px;
+}
+
 .feature__title {
     font-size: 2rem;
 }
@@ -572,6 +578,7 @@ body {
     flex-direction: column;
     gap: 20px;
     margin-bottom: 35px;
+    padding: 0 10px;
 }
 
 .host__title {
@@ -590,10 +597,26 @@ body {
 .host-card__icon {
     justify-content: center;
 }
+.techwave {
+    padding: 9px 17px;
+}
 
+.techwave__title {
+    font-size: 2rem;
+    margin: 37px 0;
+}
 
-
-
+.techwave__content {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+      "audio"
+      "mobile"
+      "global"
+      "interview"
+      "resources";
+}
 
 
   .footer__title {
