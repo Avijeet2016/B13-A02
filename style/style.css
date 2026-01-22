@@ -82,7 +82,9 @@ body {
 }
 
 .u-text-primary {
-  color: #d1ced5;
+  /* color: #d1ced5; */
+  /* color: #AA9FB8; */
+  color: #D1CFD8;
   font-size: 1rem;
 }
 
@@ -205,9 +207,7 @@ body {
   color: #ffffff;
 }
 .hero__text {
-  color: #ffffff;
   padding-bottom: 24px;
-  font-size: 16px;
 }
 
 .hero__button {
@@ -252,8 +252,85 @@ body {
 }
 
 
-.feature__title {
+
+.techwave {
+  padding: 120px 0;
+  background-color: #230E3D;
+}
+
+.techwave__title {
   font-size: 3.75rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.techwave__card {
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+  padding: 40px 40px;
+  align-items: start;
+  text-align: left;
+  justify-content: center;
+  background-color: #35116540; 
+  border: none;
+  border-radius: 40px;
+}
+
+.techwave__title {
+    font-size: 3rem;
+    margin: 40px 0;
+}
+
+.techwave__title2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    border: none;
+}
+.audio {
+  grid-area: audio;
+}
+.mobile {
+  grid-area: mobile;
+}
+.global {
+  grid-area: global;
+}
+.interview {
+  grid-area: interview;
+}
+.resources {
+  grid-area: resources;
+}
+
+.techwave__content {
+  display: grid;
+  gap: 30px;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    "audio mobile mobile"
+    "audio global global"
+    "interview interview resources";
+}
+
+
+
+
+
+
+
+
+
+
+.feature {
+  margin-top: 120px;
+}
+
+
+
+.feature__title {
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
   text-align: center;
@@ -290,7 +367,7 @@ body {
 }
 
 .host__title {
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
   text-align: center;
@@ -341,7 +418,7 @@ body {
 
 
 .footer__title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-top: 120px;
 }
